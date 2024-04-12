@@ -266,4 +266,6 @@ markup:
 frontmatter:
   lastmod: [":fileModTime", "lastmod"]
 
-googleAnalytics = "G-PKDNBCBYH9"
+services:
+  googleAnalytics:
+    ID: G-PKDNBCBYH9
