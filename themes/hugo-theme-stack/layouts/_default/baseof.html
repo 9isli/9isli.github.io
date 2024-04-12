@@ -4,7 +4,7 @@
         {{- partial "head/head.html" . -}}
         {{- block "head" . -}}{{ end }}
         {{- if not .Site.IsServer }}
-	{{ template "_internal/google_analytics_async.html" . }}
+		{{ template "_internal/google_analytics_async.html" . }}
     {{- end }}
     </head>
     <body class="{{ block `body-class` . }}{{ end }}">
